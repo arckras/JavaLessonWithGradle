@@ -3,7 +3,6 @@ package io.metadevs.akrasilnikov.test;
 import io.metadevs.akrasilnikov.main.Wig;
 import org.junit.Test;
 import static org.junit.Assert.*;
-
 public class WigTest {
 
     @Test

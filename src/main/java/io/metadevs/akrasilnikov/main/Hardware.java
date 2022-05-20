@@ -9,6 +9,7 @@ public class Hardware implements Product{
     private String description;
 
 
+
     public Hardware(String name, int weight, String steel, String description) {
         this.name = name;
 
