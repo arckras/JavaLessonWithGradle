@@ -8,6 +8,7 @@ public class Wig implements Product {
     private boolean isSynthetic;
     private String description;
 
+
     public Wig(String name, int weight, boolean isSynthetic, String description) {
         this.name = name;
         this.weight = weight;

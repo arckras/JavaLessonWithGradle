@@ -8,6 +8,7 @@ public class Computer implements Product {
     private int coreCount;
     private String description;
 
+
     public Computer(String name, int weight, int coreCount, String description) {
         this.name = name;
         this.weight = weight;
