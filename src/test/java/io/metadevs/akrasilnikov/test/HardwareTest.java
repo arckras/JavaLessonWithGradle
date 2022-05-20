@@ -2,7 +2,6 @@ package io.metadevs.akrasilnikov.test;
 
 import io.metadevs.akrasilnikov.main.Hardware;
 import org.junit.Test;
-
 import static org.junit.Assert.*;
 
 public class HardwareTest {
@@ -20,6 +19,7 @@ public class HardwareTest {
         Hardware hardware2 = new Hardware("Коса", 2, "У8", "Сельскохозяйственный инструмент");
         assertEquals(hardware1.hashCode(), hardware2.hashCode());
     }
+
     @Test
     public void testNotEquals() {
         Hardware hardware1 = new Hardware("Коса", 2, "У8", "Сельскохозяйственный инструмент");
