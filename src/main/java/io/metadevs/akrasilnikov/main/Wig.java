@@ -16,6 +16,11 @@ public class Wig implements Product {
     }
 
     @Override
+    public String toString() {
+        return "Wig{'" + name + ", " + isSynthetic + ", '" + description + "'}";
+    }
+
+    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof Wig)) return false;

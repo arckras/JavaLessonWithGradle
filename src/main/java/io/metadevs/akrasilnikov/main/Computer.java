@@ -16,6 +16,11 @@ public class Computer implements Product {
     }
 
     @Override
+    public String toString() {
+        return "Computer{" + name + ", " + coreCount + ", '" + description + "'}";
+    }
+
+    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof Computer)) return false;

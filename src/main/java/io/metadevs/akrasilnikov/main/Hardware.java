@@ -2,7 +2,7 @@ package io.metadevs.akrasilnikov.main;
 
 import java.util.Objects;
 
-public class Hardware implements Product{
+public class Hardware implements Product {
     private String name;
     private int weight;
     private String steel;
@@ -15,6 +15,11 @@ public class Hardware implements Product{
         this.weight = weight;
         this.steel = steel;
         this.description = description;
+    }
+
+    @Override
+    public String toString() {
+        return "Hardware{'" + name + ", '" + steel + ", '" + description + "'}";
     }
 
     @Override
